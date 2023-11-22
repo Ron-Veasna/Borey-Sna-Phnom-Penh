@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    height: 3000px;
+}
+.menubar{
+    width: 100%;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 105;
+    background-color: white;
+    box-shadow: 5px 1px 5px 0 dimgray;
+}
+.menubar .logo{
+    width: 14%;
+    margin-left: 3%;
+    padding: 10px 10px;
+}
+.menubar .logo img{
+    width: 100%;
+}
+.menubar .menu{
+    width: 80%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: ;
+}
+.menubar .menu ul{
+    display: flex;
+    gap: 30px;
+    margin-right: 30px;
+}
+.menubar .menu ul li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menubar .menu ul li a{
+    text-decoration: none;
+    color: rgb(78, 78, 78);
+    font-weight: bold;
+    font-size: 15px;
+}
+.menubar .menu ul li a:hover{
+    color: #215ca0;
+}
+.borey{
+    width: 100%;
+    height: 850px;
+    position: relative;
+}
+.borey img{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+.borey .title h1{
+    top: 120px;
+    left: 400px;
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.borey .title h2{
+    top: 200px;
+    left: 800px;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bar{
+    width: 100%;
+    background-color: white;
+    padding: 10px 10px;
+    position: sticky;
+    top: 64px;
+    box-shadow: 5px 1px 5px 0 dimgray;
+    z-index: 100;
+}
+.bar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.bar ul li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.bar ul li a{
+    text-decoration: none;
+    color: #215ca0;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container .about{
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px ;
+}
+.container .about h1{
+    color: black;
+    font-size: 30px;
+    padding-bottom:10px;
+}
+.container .about h2{
+    color: #215ca0;
+    font-size: 33px;
+    padding-bottom: 20px;
+}
+.container .home{
+    width: 50%;
+
+}
+.container .home img{
+    width: 80%;
+    margin-left: 10%;
+}
+.container .detail{
+    width: 40%;
+    margin-left: 5%;
+}
+.container .detail h1{
+    margin-left: 220px;
+    font-size: 20px;
+    color: #215ca0;
+    padding-bottom: 20px;
+}
+.container .detail h2{
+    color: black;
+    font-size: 20px;
+    line-height: 40px;
+}
+.container1{
+    width: 100%;
+}
+.container1 .txt{
+    width: 100%;
+    text-align: center;
+    padding: 45px;
+}
+.container1 .txt h1{
+    color: #215ca0;
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+.container1 .txt h2{
+    color: black;
+    font-size: 30px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+.container1 .box{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.container1 .box .item{
+    width: 30%;
+    height: 550px;
+    transform: scale(0.9);
+    transition: 0.5s;
+    box-shadow: 1px 1px 8px rgba(0,0,0);
+}
+.container1 .box .item:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+.container1 .box .item .img{
+    width: 100%;
+    height: 80%;
+}
+.container1 .box .item .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container1 .box .item .text{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    background-color: pink;
+}
+.container1 .box .item .text h1{
+    color: black;
+    font-size: 34px;
+    padding-top: 13px;
+}
+.container1 .box .item .text h2{
+    color: #215ca0;
+    font-size: 34px;
+}
+.container2{
+    width: 100%;
+}
+.container2 .abt{
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+}
+.container2 .abt h1{
+    color: black;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.container2 .abt h2{
+    color: #215ca0;
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+.container2 .box{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.container2 .box .item{
+    width: 23%;
+    height: 350px;
+    box-shadow: 1px 1px 8px rgba(0,0,0);
+    transition: 0.5s;
+}
+.container2 .box .item:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+.container2 .box .item .img{
+    width: 100%;
+    height: 85%;
+}
+.container2 .box .item .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container2 .box .item .text{
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    background-color: pink;
+}
+.container2 .box .item .text h1{
+    color: black;
+    font-size: 27px;
+    padding-top: 10px;
+}
+.container3{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container3 .book{
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+}
+.container3 .book h1{
+    color: black;
+    font-size: 30px;
+    padding-top: 25px;
+}
+.container3 .book h2{
+    color: #215ca0;
+    font-size: 30px;
+    padding: 25px 0px;
+}
+.container3 .home{
+    width: 45%;
+
+}
+.container3 .home img{
+    width: 90%;
+    object-fit: cover;
+    margin-left: 10%;
+}
+.container3 .booking{
+    padding-top: 60px;
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgba(71, 71, 71, 0.062);
+}
+.container3 .booking input{
+    width: 45%;
+    height: 85px;
+}
+.container3 .booking .box1{
+    width: 50%;
+    height: 200px;
+}
+.container3 .booking .box1 textarea{
+    width: 100%;
+    height: 100%;
+}
+.container3 .booking .box2{
+    width: 40%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container3 .booking .box2 input{
+    width: 100%;
+}
+.container3 .booking .box2 button{
+    width: 100%;
+    color: white;
+    padding: 10px;
+    background-color: #215ca0;
+}
+
+    
